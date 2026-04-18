@@ -1,0 +1,57 @@
+{
+  "name": "orak-util-node",
+  "version": "0.0.3",
+  "description": "OrakSoft-Node Utility Library",
+  "type": "module",
+  "main": "dist/orak-util-node.cjs",
+  "module": "dist/orak-util-node.js",
+  "types": "dist/orak-util-node.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/orak-util-node.d.ts",
+      "import": "./dist/orak-util-node.js",
+      "require": "./dist/orak-util-node.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "fiBuildComment": "Add new class to index.ts (Yeni eklenen sınıfları index.ts dosyasına ekleyin)",
+  "scripts": {
+    "np-install": "pnpm install",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "build": "tsup",
+    "np-publish": "pnpm publish --no-git-checks",
+    "np-build-publish": "tsup && pnpm publish --no-git-checks",
+    "np-link-global": "pnpm link --global",
+    "np-unlink": "pnpm unlink --global orak-util-node",
+    "np-list-global": "pnpm list -g"
+  },
+  "keywords": [
+    "typescript",
+    "library"
+  ],
+  "author": "Tuncay Orak",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/engtuncay/orak-util-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/engtuncay/orak-util-node.git/issues"
+  },
+  "homepage": "https://github.com/engtuncay/orak-util-node#readme",
+  "devDependencies": {
+    "terser": "^5.39.0",
+    "tsup": "^8.3.0",
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0",
+    "vitest": "^2.1.2"
+  },
+  "dependencies": {
+    
+  },
+  "devDependenciesComment": {}
+}
