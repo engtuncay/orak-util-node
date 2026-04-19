@@ -1,6 +1,6 @@
 {
   "name": "orak-util-node",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "OrakSoft-Node Utility Library",
   "type": "module",
   "main": "dist/orak-util-node.cjs",
