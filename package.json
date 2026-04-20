@@ -1,6 +1,7 @@
 {
   "name": "orak-util-node",
-  "version": "0.0.4",
+  "version": "0.0.5",
+  "fiPrefix": "ounode",
   "description": "OrakSoft-Node Utility Library",
   "type": "module",
   "main": "dist/orak-util-node.cjs",
@@ -18,17 +19,18 @@
   ],
   "fiBuildComment": "Add new class to index.ts (Yeni eklenen sınıfları index.ts dosyasına ekleyin)",
   "scripts": {
-    "np-install": "pnpm install",
+    "np-ins-ounode": "pnpm install",
     "dev": "tsup --watch",
     "test": "vitest run",
     "test:watch": "vitest",
     "build": "tsup",
-    "np-publish": "pnpm publish --no-git-checks",
-    "np-build-publish": "tsup && pnpm publish --no-git-checks",
+    "build-ounode": "tsup",
+    "np-publish-ounode": "pnpm publish --no-git-checks",
+    "np-buipub-ounode": "tsup && pnpm publish --no-git-checks",
     "np-link-global": "pnpm link --global",
     "np-unlink": "pnpm unlink --global orak-util-node",
     "np-list-global": "pnpm list -g",
-    "np-pubver" : "npm view orak-util-node version"
+    "np-pubver-ounode" : "npm view orak-util-node version"
   },
   "keywords": [
     "typescript",
@@ -52,7 +54,7 @@
     "vitest": "^2.1.2"
   },
   "dependencies": {
-    
+    "orak-util-ts": "file:../orak-util-ts"
   },
   "devDependenciesComment": {}
 }
