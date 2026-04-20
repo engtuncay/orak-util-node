@@ -27,7 +27,8 @@
     "np-build-publish": "tsup && pnpm publish --no-git-checks",
     "np-link-global": "pnpm link --global",
     "np-unlink": "pnpm unlink --global orak-util-node",
-    "np-list-global": "pnpm list -g"
+    "np-list-global": "pnpm list -g",
+    "np-pubver" : "npm view orak-util-node version"
   },
   "keywords": [
     "typescript",
