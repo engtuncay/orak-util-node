@@ -1,0 +1,18 @@
+# Standart .npmignore dosyası
+# Gereksiz dosya ve klasörleri npm paketine dahil etme
+.git
+.gitignore
+.npmrc
+*.log
+node_modules
+src/
+test/
+*.test.*
+*.spec.*
+tsconfig*.json
+*.iml
+*.md
+*.tsbuildinfo
+.vscode
+.idea
+coverage

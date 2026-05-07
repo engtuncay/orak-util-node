@@ -1,6 +1,6 @@
 {
   "name": "orak-util-node",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "fiPrefix": "ounode",
   "description": "OrakSoft-Node Utility Library",
   "type": "module",
@@ -54,7 +54,7 @@
     "vitest": "^2.1.2"
   },
   "dependencies": {
-    "orak-util-ts": "file:../orak-util-ts"
+    "orak-util-ts": "1.1.3"
   },
   "devDependenciesComment": {}
 }
