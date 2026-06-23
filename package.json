@@ -1,7 +1,7 @@
 {
   "name": "orak-util-node",
-  "version": "0.0.8",
-  "fiPrefix": "ounode",
+  "version": "0.0.9",
+  "fiPrefix": "oun",
   "description": "OrakSoft-Node Utility Library",
   "type": "module",
   "main": "dist/orak-util-node.cjs",

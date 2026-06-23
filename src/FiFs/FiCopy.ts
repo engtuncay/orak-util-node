@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-// Kaynak ve hedef yolları tanımla
+// Kaynak ve hedef yolları tanımla - example values
 // const sourceDocDir = 'ent-node-doc';
 // const sourceHtmlFile = 'entegre_node/main.html';
 // const distDir = 'dist';
@@ -9,6 +9,7 @@ import path from 'path';
 export class FiCopy {
   // Kopyalama fonksiyonu
   static copyDir(src: string, dest: string): void {
+    
     if (!fs.existsSync(dest)) {
       fs.mkdirSync(dest, { recursive: true });
     }
